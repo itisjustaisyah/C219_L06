@@ -13,6 +13,9 @@
     .card-img-top {
       object-fit: cover;
     }
+    .fa-solid{
+      min-font-size: 12px;
+    }
   </style>
   <title>SOI Learning Portal</title>
 </head>
@@ -78,8 +81,6 @@ Welcome to SOI Learning Portal
   </div>
 </div>
 
-
-
 <!--TODO:three columns:
   158 online courses
     Enjoy a variety of fresh topics
@@ -87,23 +88,64 @@ Welcome to SOI Learning Portal
     Find the right instructor for you
   Lifetime access
     Learn on your schedule-->
-<div id="minirow" class="container-fluid shadow p-2">
-  <div class="container d-flex justify-content-between align-items-center">
-    <div class="row">
+<div class="fluid-container shadow">
+  <div class="container p-2 d-flex justify-content-around">
+    <div class="row align-items-center">
       <div class="col">
-        <row>
+        <i class="fa-solid fa-clipboard fa-xxl bg-primary p-2" style="display: inline-block;border-radius: 50%;"></i>
+      </div>
+      <div class="col">
+        <div class="row">
           <div class="col">
-            <i class="fa-solid fa-clipboard bg-primary" style="display: inline-block;border-radius: 60px; padding: 0.5em 0.6em;"></i>
+            <p><strong>158 online courses</strong></p>
+
           </div>
-          <div class="h-100 d-flex flex-row justify-content-between align-items-center">
-            <h3 class="badge bg-primary align-self-center ">Flex item 1</h3>
-            <h3 class="badge bg-primary">Flex item 2</h3>
-            <h3 class="badge bg-primary">Flex item 3</h3>
+        </div>
+        <div class="row">
+          <div class="col">
+            Enjoy a variety of fresh topics
           </div>
-        </row>
+        </div>
       </div>
     </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <i class="fa-solid fa-chalkboard-user fa-xxl bg-primary p-2" style="display: inline-block;border-radius: 50%;"></i>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <p><strong>Expert instruction</strong></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            Find the right instructor for you
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <i class="fa-solid fa-infinity fa-xxl bg-primary p-2" style="display: inline-block;border-radius: 50%;"></i>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <p><strong>Lifetime access</strong></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            Learn on your schedule
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
+
 </div>
 
 
